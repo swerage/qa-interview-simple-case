@@ -12,7 +12,7 @@ export class LoginPage {
     }
 
     async goToLoginPage() {
-        this.page.goto('localhost:8080/login');
+        await this.page.goto('localhost:8080/login');
     }
 
     async typeEmail(text: string) {
