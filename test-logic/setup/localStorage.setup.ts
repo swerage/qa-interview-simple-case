@@ -1,6 +1,6 @@
 import { test as setup } from '@playwright/test'
 import { promises as fs } from 'fs'
-import { setupDir, setupFile } from '../playwright.config'
+import { setupDir, setupFile } from '../../playwright.config'
 
 export const existingUsers = [
   {
