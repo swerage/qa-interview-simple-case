@@ -3,7 +3,7 @@ import { existingUsers } from '../../test-logic/setup/localStorage.setup'
 
 test.describe('login form tests', () => {
   const existingUser = existingUsers[0];
-  
+
   test('logging in works with existing account', async ({ loginPage }) => {
     await loginPage.goToLoginPage();
 
