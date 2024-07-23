@@ -18,4 +18,5 @@ export default defineConfig({
       dependencies: ['setup'],
     },
   ],
+  fullyParallel: true
 })
