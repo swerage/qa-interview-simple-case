@@ -28,6 +28,6 @@ export class LoginPage {
   }
 
   async getLogoutText() {
-    return this.page.getByText('Log out');
+    return this.page.locator('#logout');
   }
 }
