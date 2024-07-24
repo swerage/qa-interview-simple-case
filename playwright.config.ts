@@ -14,8 +14,10 @@ export default defineConfig({
         ...devices['Desktop Chrome'],
         // Use "database" with existing accounts
         storageState: setupFile,
+        video: 'retain-on-failure'
       },
       dependencies: ['setup'],
     },
   ],
+  fullyParallel: true,
 })
